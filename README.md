@@ -11,7 +11,7 @@ pip install tweepy
 ## Pic2Video
 Some functions in the scripts require opencv library, so use the command below to install it first and make sure it works well
 ```
-#make sure that you run cmd as an administrator
+# make sure that you run cmd as an administrator
 pip install --upgrade setuptools
 pip install numpy Matplotlib
 pip install opencv-python
