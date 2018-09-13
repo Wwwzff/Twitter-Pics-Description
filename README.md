@@ -15,3 +15,4 @@ pip install --upgrade setuptools
 pip install numpy Matplotlib
 pip install opencv-python
 ```
+* make sure that you run cmd as an administrator
