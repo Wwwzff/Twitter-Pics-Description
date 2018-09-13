@@ -1,5 +1,6 @@
 import glob as gb
 import cv2
+
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 
 #input path of the pics
