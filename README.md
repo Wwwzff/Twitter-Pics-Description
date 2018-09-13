@@ -3,7 +3,15 @@ Build a library (in python3.6.6) that downloads images from a twitter feed, conv
 
  
 ## TwitterPicDownloader.py 
-Install tweepy first, using the command below
+Install tweepy first and run the script, using the command below
 ```
 pip install tweepy
 ```
+
+## Pic2Video
+Some functions in the scripts require opencv library, so use the command below to install it first and make sure it works well
+```
+pip install --upgrade setuptools
+pip install numpy Matplotlib
+pip install opencv-python
+'''
