@@ -17,4 +17,4 @@ pip install numpy Matplotlib
 pip install opencv-python
 ```
 ## Vision.py
-
+Using Google Vision API to annotate a pic and save the result into a .txt file
