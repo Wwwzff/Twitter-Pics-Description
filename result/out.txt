@@ -1,0 +1,10 @@
+cushion
+room
+duvet cover
+bed sheet
+furniture
+textile
+pillow
+couch
+linens
+bedding
