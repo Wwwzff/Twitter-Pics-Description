@@ -5,11 +5,11 @@ import cv2
 
 
 
-# Imports the Google Cloud client library
+
 from google.cloud import vision
 from google.cloud.vision import types
 
-# Instantiates a client
+
 client = vision.ImageAnnotatorClient()
 
 # The name of the image file to annotate
@@ -27,6 +27,12 @@ image = types.Image(content=content)
 response = client.label_detection(image=image)
 labels = response.label_annotations
 
+doc = open ('out.txt','w')
+
 print('Labels:')
 for label in labels:
     print(label.description)
+    #save the result into a txt file
+    print(label.description, file=doc)
+
+doc.close()
