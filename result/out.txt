@@ -1,10 +1,40 @@
-cushion
-room
-duvet cover
-bed sheet
-furniture
-textile
-pillow
-couch
-linens
-bedding
+Labels for 1.jpg:
+cushion room duvet cover bed sheet furniture textile pillow couch linens bedding 
+Labels for 10.jpg:
+wall furniture hearth fireplace table living room interior design shelving rectangle shelf 
+Labels for 11.jpg:
+kitchen shelving shelf product countertop furniture display case small appliance interior design cabinetry 
+Labels for 12.jpg:
+furniture shelving shelf home table interior design bookcase 
+Labels for 13.jpg:
+product product technology electronics plastic 
+Labels for 14.jpg:
+furniture room wall interior design home shelving shelf desk product chest of drawers 
+Labels for 15.jpg:
+countertop kitchen cabinetry interior design cuisine classique home appliance kitchen stove small appliance 
+Labels for 16.jpg:
+kitchen countertop room interior design cuisine classique living room loft furniture cabinetry 
+Labels for 17.jpg:
+duvet cover bed sheet room textile furniture bed bedding linens pillow cushion 
+Labels for 18.jpg:
+furniture room interior design product chest of drawers home desk bed flooring shelving 
+Labels for 19.jpg:
+furniture room bed frame bed interior design table bedroom product home couch 
+Labels for 2.jpg:
+yellow architecture sky structure building corporate headquarters facade city 
+Labels for 20.jpg:
+wool shoe textile sock knitting 
+Labels for 3.jpg:
+blue living room home room interior design furniture window chair table window treatment 
+Labels for 4.jpg:
+pink furniture room interior design wall home product desk shelving table 
+Labels for 5.jpg:
+furniture interior design desk home office table 
+Labels for 6.jpg:
+furniture table interior design 
+Labels for 7.jpg:
+kitchen home appliance countertop interior design kitchen appliance cuisine classique refrigerator small appliance kitchen stove 
+Labels for 8.jpg:
+blue textile wool flooring 
+Labels for 9.jpg:
+furniture product interior design flooring floor 
