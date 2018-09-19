@@ -59,27 +59,29 @@ for path in img_path:
 # Pics Annotation
 client = vision.ImageAnnotatorClient()
 
-# The name of the image file to annotate
-file_name = os.path.join(
-    os.path.dirname(__file__),
-    '1.jpg')
+# The path for the image file to annotate
+pic_path = 'C:\\Users\\64483\\Documents\\EC601\\result\\EC601\\'
 
-# Loads the image into memory
-with io.open(file_name, 'rb') as image_file:
-    content = image_file.read()
+lists = os.listdir(pic_path)
+lists.sort()
 
-image = types.Image(content=content)
+# Save labels to a .txt file
+doc = open ('out.txt','w')
+for pic in lists:
+
+
+    with io.open(pic_path + pic, 'rb') as image_file:
+        content = image_file.read()
+
+    image = types.Image(content=content)
 
 # Performs label detection on the image file
-response = client.label_detection(image=image)
-labels = response.label_annotations
+    response = client.label_detection(image=image)
+    labels = response.label_annotations
 
-doc = open ('out.txt','w')
 
-print('Labels:')
-for label in labels:
-    print(label.description)
-    # save the result into a txt file
-    print(label.description, file=doc)
-
+    print('Labels for ' + pic +':', file = doc)
+    for label in labels:
+        print(label.description, end = ' ', file=doc)
+    print('',file = doc)
 doc.close()
