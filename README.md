@@ -34,5 +34,5 @@ mysql -u root -p
 ```
 To choose DB:
 ```
-use MiniProject3;
+use DBNAME;
 ```
