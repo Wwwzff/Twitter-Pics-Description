@@ -1,5 +1,5 @@
 # MiniProject3
-This branch uses mysql and mongoDB to store information everytime users run the twitter API script. 
+This branch uses mysql and mongoDB to store information everytime users run the twitter API script. Slight changes are applied to the twitter api parts.
 ## MySQL Database structures
 The table are created using commands below:
 ```
@@ -12,11 +12,18 @@ create table userinfo(
     -> PRIMARY KEY (`ID`)
     -> )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
-To make DATE change automatically, we need to modify defaults of this column. Using command below:
+To make DATE change automatically, we need to modify defaults of this column:
 ```
 modify column `Login Date` datetime null default current_timestamp;
 ```
-To reset primary key, use command below:
+To reset primary key:
 ```
 truncate table TABLENAME;
+```
+To activate mysql from cmd:(under bin directory)
+```
+mysql -u root -p
+'''
+'''
+use MiniProject3;
 ```
