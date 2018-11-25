@@ -24,6 +24,7 @@ To activate mysql from cmd:(under bin directory)
 ```
 mysql -u root -p
 ```
+To choose DB:
 ```
 use MiniProject3;
 ```
