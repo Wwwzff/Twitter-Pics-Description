@@ -36,6 +36,7 @@ To choose DB:
 ```
 use DBNAME;
 ```
-## Databasetest.py
+## DBtest(mysql).py
 * Calculate avg number of pictures everytime a user use this API.
 * Search by keywords for which Twitter they've specified or what descriptors they've got.
+* Find which descriptor most frequently appears.
