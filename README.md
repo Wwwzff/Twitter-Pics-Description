@@ -1,3 +1,4 @@
+
 # MiniProject3
 This branch uses mysql and mongoDB to store information everytime users run the twitter API script. Slight changes are applied to the twitter api parts.
 * module pymysql and pymongo are needed for running the code
@@ -49,3 +50,4 @@ Commands using windows cmd are mostly same with mysql's.
 * Calculate avg number of pictures everytime a user uses this API.
 * Search by keywords for which Twitter they've specified or what descriptors they've got.
 * Find which descriptor most frequently appears.
+
