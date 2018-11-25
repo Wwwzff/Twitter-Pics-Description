@@ -23,7 +23,7 @@ truncate table TABLENAME;
 To activate mysql from cmd:(under bin directory)
 ```
 mysql -u root -p
-'''
-'''
+```
+```
 use MiniProject3;
 ```
