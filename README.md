@@ -30,6 +30,7 @@ truncate table TABLENAME;
 ```
 To activate mysql from cmd:(under bin directory)
 ```
+net start mysql
 mysql -u root -p
 ```
 To choose DB:
@@ -37,10 +38,12 @@ To choose DB:
 use DBNAME;
 ```
 ## MongoDB Structures
+Commands using windows cmd are mostly same with mysql's.
 ```
 { "_id" : ObjectId("5bfb0e593523132d306622b5"), "Login Date" : "Sun Nov 25 16:04:25 2018", "twitter ID" : "linkinpark", "Pictures" : 20, "Descriptor" : "black" }
 { "_id" : ObjectId("5bfb26853523132014e44a09"), "Login Date" : "Sun Nov 25 17:47:33 2018", "twitter ID" : "linkinpark", "Pictures" : 21, "Descriptor" : "black" }
 ```
+* Local time is added using python library.
 ## DBtests
 * Calculate avg number of pictures everytime a user use this API.
 * Search by keywords for which Twitter they've specified or what descriptors they've got.
