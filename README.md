@@ -1,7 +1,8 @@
 
 # MiniProject3
 This branch uses mysql and mongoDB to store information everytime users run the twitter API script. Slight changes are applied to the twitter api parts.
-* module pymysql and pymongo are needed for running the code
+* Codes tested on Windows10.
+* Module pymysql and pymongo are needed for running the code.
 ## MySQL Database structures
 The table are created using commands below:
 ```
