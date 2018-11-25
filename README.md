@@ -24,7 +24,7 @@ To make DATE change automatically, we need to modify defaults of this column:
 ```
 modify column `Login Date` datetime null default current_timestamp;
 ```
-To reset primary key:
+To reset whole table including primary key:
 ```
 truncate table TABLENAME;
 ```
