@@ -35,7 +35,7 @@ def downloadPics(auth,name,number,path):
             f.write((urllib.request.urlopen(imgPath)).read())
     f.close()
     print('Pictures Downloaded')
-    return imgName
+    return imgName+1
 
 # Part 2 convert Pics to Video
 def pic2video(path,filename,fps,resolution):
@@ -122,5 +122,5 @@ imgNumber = downloadPics(api,twitterID,100,path)
 pic2video(path,"result.mp4",6,(1024,512))
 labeller(path)
 descriptor = find_most_frequent_word('./out.txt')
-writeDBmySQL(twitterID,imgNumber+1,descriptor)
+writeDBmySQL(twitterID,imgNumber,descriptor)
 
