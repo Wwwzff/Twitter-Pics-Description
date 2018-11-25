@@ -125,10 +125,10 @@ def writeMongoDB(twitterID,imgNumber,descriptor):
 
 path = "D:\\EC601\\"
 twitterID = 'linkinpark'
-consumer_key = "EaRJCL2n7WW7oGqZPGW8LjT2g"
-consumer_secret = "LpSj2RWRpW2MNTETotE6LIHizGyzdQNNS3vXOUEHDnwO0y07ws"
-access_token = "1038532509942857730-Sn24COVvc7Zt7rY6WM0GugU4JuUXr9"
-access_token_secret = "mpRtlWQtrw0YRdIkMUqHPoldxbDgpXSgxB4Vx6D3ybNOb"
+consumer_key = "************"
+consumer_secret = "***********"
+access_token = "**********"
+access_token_secret = "**********"
 
 
 api = credentials(consumer_key,consumer_secret,access_token,access_token_secret)
